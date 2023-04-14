@@ -33,7 +33,7 @@ const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
   <React.StrictMode>
-    <ThirdwebProvider  desiredChainId={ChainId.Goerli}>
+    <ThirdwebProvider  desiredChainId={ChainId.Mumbai}>
         <Router>
           <StateContextProvider>  
             <App />
